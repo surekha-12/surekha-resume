@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADDULA GREESHMA SUREKHA - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume {
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .left-section {
+            background-color: #502c2c;
+            color: #fff;
+            padding: 40px;
+            width: 35%;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ .profile-image-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .name {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 1.1em;
+            color: #ecf0f1;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: #f39c12;
+        }
+
+        .contact-info, .skills-list, .language-list, .hobbies-list {
+            margin-top: 20px;
+        }
+
+        .contact-info p, .skills-list li, .language-list li, .hobbies-list li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info i, .skills-icon, .language-icon, .hobbies-icon {
+            margin-right: 10px;
+            color: #f39c12;
+        }
+
+        .skills-list li::before {
+            content: '\2022';
+            color: #f39c12;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .right-section {
+            padding: 40px;
+            width: 65%;
+        }
+
+        .education-entry, .experience-entry {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .education-entry:last-child, .experience-entry:last-child {
+            border-bottom: none;
+        }
+
+        .entry-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .entry-meta {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .entry-description li {
+            margin-bottom: 5px;
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #555;
+        }
+
+        /* Icons (you might need to include a font library like Font Awesome for more icons) */
+        .fa {
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            line-height: 1;
+            font-size: 1em;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .fa-phone:before { content: "\f095"; }
+        .fa-envelope:before { content: "\f0e0"; }
+        .fa-map-marker:before { content: "\f041"; }
+        .fa-graduation-cap:before { content: "\f19d"; }
+        .fa-briefcase:before { content: "\f0b1"; }
+        .fa-code:before { content: "\f121"; }
+        .fa-star:before { content: "\f005"; }
+        .fa-music:before { content: "\f001"; }
+        .fa-gamepad:before { content: "\f11b"; }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="left-section">
+          <div class="profile-image-container">
+            </div>
+            <h1 class="name">MADDULA GREESHMA SUREKHA</h1>
+            <p class="title"> DATA ANALYST</p>
+
+            <div class="contact-info">
+                <h2 class="section-title"><i class="fa fa-user"></i> Contact</h2>
+                <p><i class="fa fa-phone"></i> 8688013388</p>
+                <p><i class="fa fa-envelope"></i> 24pa1a4569@vishnu.edu.in</p>
+                <p><i class="fa fa-calendar"></i> 24-12-2006</p>
+            </div>
+
+            <div class="skills-list">
+                <h2 class="section-title"><i class="fa fa-code"></i> Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C Programming</li>
+                    <li>Data Structures</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-list">
+                <h2 class="section-title"><i class="fa fa-star"></i> Hobbies</h2>
+                <ul>
+                    <li><i class="fa fa-film"></i> Watching Movies</li>
+                    <li><i class="fa fa-music"></i> Listening to Music</li>
+                    <li><i class="fa fa-gamepad"></i> Dancing</li>
+                    <li><i class="fa fa-gamepad"></i> Drawing</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-section">
+            <section class="education">
+                <h2 class="section-title"><i class="fa fa-graduation-cap"></i> Education</h2>
+                <div class="education-entry">
+                    <h3 class="entry-title">B.Tech in artificial intelligence and data science</h3>
+                    <p class="entry-meta">Vishnu Institute of Technology, Bhimavaram</p>
+                    <p class="entry-meta">Expected Graduation: 2028</p>
+                </div>
+                <div class="education-entry">
+                    <h3 class="entry-title">Intermediate (MPC)</h3>
+                    <p class="entry-meta">Narayana junior college,Amalapuram</p>
+                    <p class="entry-meta">Completed: 2022-2024</p>
+                </div>
+                <div class="education-entry">
+                    <h3 class="entry-title">SSC</h3>
+                    <p class="entry-meta">Sir .c v Raman,Amalapuram</p>
+                    <p class="entry-meta">Completed: 2022</p>
+                </div>
+            </section>
+
+            <section class="experience">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i> Experience</h2>
+                <div class="experience-entry">
+                    <h3 class="entry-title">Fresher</h3>
+                    <p class="entry-meta">Looking for opportunities to apply my skills and learn.</p>
+                    </div>
+                </section>
+        </div>
+    </div>
+</body>
